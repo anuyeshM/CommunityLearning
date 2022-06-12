@@ -31,7 +31,7 @@ const Register = () => {
     const register = () => {
         const { name, email, password, reEnterPassword } = user
         if( name && email && password && (password === reEnterPassword)){
-            axios.post("https://coursemash3.herokuapp.com/register", user)
+            axios.post("https://coursemash7.herokuapp.com/register", user)
             .then( res => {
                 alert(res.data.message)
                
