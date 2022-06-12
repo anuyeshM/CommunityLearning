@@ -23,7 +23,7 @@ const Login = ({ setLoginUser}) => {
     }
 
     const login = () => {
-        axios.post("https://coursemash3.herokuapp.com/login", user)
+        axios.post("https://coursemash7.herokuapp.com/login", user)
         .then(res => {
             alert(res.data.message)
             
